@@ -4,14 +4,19 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
+  return {
+    :toby => 'cheese' 
+  }
 end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  
 end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
+  
 end
 
 def my_hash_creator(key, value)
@@ -27,3 +32,9 @@ def update_counting_hash(hash, key)
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
 end
+
+ages = {
+  :michael => 33,
+  :toby => 2,
+  :johnnae => 30
+}
