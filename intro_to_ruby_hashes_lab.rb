@@ -40,4 +40,4 @@ ages = {
 }
 
 puts 'tobys age'
-puts ages.toby
+puts ages[:toby]
