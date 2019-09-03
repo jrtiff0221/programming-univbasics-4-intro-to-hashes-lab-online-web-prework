@@ -38,3 +38,6 @@ ages = {
   :toby => 2,
   :johnnae => 30
 }
+
+puts 'tobys age'
+puts ages.toby
